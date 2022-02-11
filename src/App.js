@@ -1,9 +1,12 @@
 import "./App.css";
+import Counting from "./Counting";
+import Todo from "./Todo";
 
 function App() {
   return (
     <div className="App">
-      <h3>TO-DO List</h3>
+      {/* <Counting /> */}
+      <Todo />
     </div>
   );
 }
